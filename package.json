@@ -1,0 +1,12 @@
+{
+  "name": "backend_user_points",
+  "version": "1.0.0",
+  "description": "This is a practicing test folder with express, node and mongodb.",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
