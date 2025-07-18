@@ -26,7 +26,7 @@ exports.claimPoints = async (req, res) => {
     const history = new ClaimPointsHistory({ userId, points});
     await history.save();
 
-    res.status(200).json({ points, user });
+    res.status(201).json({ points, user });
 };
 
 exports.getLeaderBoard = async (req, res) => {
