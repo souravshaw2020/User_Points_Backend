@@ -14,6 +14,6 @@ const claimPointsHistorySchema = new mongoose.Schema({
     }
 });
 
-const ClaimPointsHistory = new mongoose.model('ClaimPointsHistory', claimPointsHistorySchema);
+const ClaimPointsHistory = mongoose.model('ClaimPointsHistory', claimPointsHistorySchema);
 
 module.exports = ClaimPointsHistory;
