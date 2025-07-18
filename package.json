@@ -1,12 +1,26 @@
 {
   "name": "backend_user_points",
   "version": "1.0.0",
-  "description": "This is a practicing test folder with express, node and mongodb.",
+  "description": "This is an assignment based project with express, node js, mongoose, and cors.",
+  "homepage": "https://github.com/souravshaw2020/User_Points_Backend#readme",
+  "bugs": {
+    "url": "https://github.com/souravshaw2020/User_Points_Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/souravshaw2020/User_Points_Backend.git"
+  },
   "license": "ISC",
-  "author": "",
+  "author": "Sourav Shaw",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.4"
   }
 }
